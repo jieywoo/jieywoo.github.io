@@ -1,0 +1,106 @@
+{
+  "publications": [
+    {
+      "title": "Multimodal Adaptive Behavior Generation During Human–Agent Interaction",
+      "venue": "Multimodal Interaction Technologies for Training Affective Social Skills",
+      "year": "2025",
+      "link": "https://link.springer.com/chapter/10.1007/978-981-96-1313-7_8"
+    },
+    {
+      "title": "GRETA: Modular Platform to Create Adaptive Socially Interactive Agents",
+      "venue": "arXiv",
+      "year": "2025",
+      "link": "https://arxiv.org/pdf/2503.15504"
+    },
+    {
+      "title": "Adaptive virtual agent: Design and evaluation for real-time human-agent interaction",
+      "venue": "International Journal of Human-Computer Studies",
+      "year": "2024",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1071581924001058"
+    },
+    {
+      "title": "Exchanging... watch out!",
+      "venue": "arXiv",
+      "year": "2023",
+      "link": "https://arxiv.org/pdf/2311.04747"
+    },
+    {
+      "title": "An Adaptive Virtual Agent Platform for Automated Social Skills Training",
+      "venue": "Companion Publication of the 25th International Conference on Multimodal Interaction",
+      "year": "2023",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3610661.3620662"
+    },
+    {
+      "title": "GENEA Workshop 2023: The 4th Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents",
+      "venue": "Proceedings of the 25th International Conference on Multimodal Interaction",
+      "year": "2023",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3577190.3616856"
+    },
+    {
+      "title": "The GENEA Challenge 2023: A large-scale evaluation of gesture generation models in monadic and dyadic settings",
+      "venue": "Proceedings of the 25th international conference on multimodal interaction",
+      "year": "2023",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3577190.3616120"
+    },
+    {
+      "title": "IAVA: Interactive and Adaptive Virtual Agent",
+      "venue": "Proceedings of the 23rd ACM International Conference on Intelligent Virtual Agents",
+      "year": "2023",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3570945.3607326"
+    },
+    {
+      "title": "Conducting Cognitive Behavioral Therapy with an Adaptive Virtual Agent",
+      "venue": "Proceedings of the 23rd ACM International Conference on Intelligent Virtual Agents",
+      "year": "2023",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3570945.3607334"
+    },
+    {
+      "title": "Is Turn-Shift Distinguishable with Synchrony?",
+      "venue": "International Conference on Human-Computer Interaction",
+      "year": "2023",
+      "link": "https://link.springer.com/chapter/10.1007/978-3-031-35894-4_32"
+    },
+    {
+      "title": "AMII: Adaptive multimodal inter-personal and intra-personal model for adapted behavior synthesis",
+      "venue": "arXiv",
+      "year": "2023",
+      "link": "https://arxiv.org/abs/2305.11310"
+    },
+    {
+      "title": "Asap: Endowing adaptation capability to agent in human-agent interaction",
+      "venue": "Proceedings of the 28th International Conference on Intelligent User Interfaces",
+      "year": "2023",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3581641.3584081"
+    },
+    {
+      "title": "Are we in sync during turn switch?",
+      "venue": "2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)",
+      "year": "2023",
+      "link": "https://ieeexplore.ieee.org/abstract/document/10042799/"
+    },
+    {
+      "title": "Reciprocal Adaptation Measures for Human-Agent Interaction Evaluation",
+      "venue": "15th International Conference on Agents and Artificial Intelligence",
+      "year": "2023",
+      "link": "https://hal.science/hal-04293365/document"
+    },
+    {
+      "title": "Development of an interactive human/agent loop using multimodal recurrent neural networks",
+      "venue": "Proceedings of the 2021 International Conference on Multimodal Interaction",
+      "year": "2021",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3462244.3481275"
+    },
+    {
+      "title": "A framework for the assessment and training of collaborative problem-solving social skills",
+      "venue": "Companion Publication of the 2021 International Conference on Multimodal Interaction",
+      "year": "2021",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3461615.3485422"
+    },
+    {
+      "title": "Creating an interactive human/agent loop using multimodal recurrent neural networks",
+      "venue": "WACAI 2021",
+      "year": "2021",
+      "link": "https://hal.science/hal-03377542/"
+    }
+  ]
+}
