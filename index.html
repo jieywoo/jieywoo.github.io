@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jieyeon Woo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #add8e6;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+    }
+    section {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jieyeon Woo</h1>
+    <p>Senior Researcher, Korea Institute of Machinery and Materials (KIMM)</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#research">Research Area</a>
+    <a href="#publications">Publications</a>
+    <a href="#education">Education</a>
+    <a href="#activities">Academic Activities</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Jieyeon.</p>
+    <p>I'm a senior researcher in AI Robot Research Division at Korea Institute of Machinery and Materials (KIMM), South Korea.</p>
+  </section>
+
+  <section id="research">
+    <h2>Research Area</h2>
+    <h3>Main research areas:</h3>
+    <p>Human-Robot Interaction(HRI), Human-Computer Interaction(HCI), Conversational AI, Multimodal AI</p>
+    <h3>Additional research areas:</h3>
+    <p>Humanoid locomotion, Humanoid teleoperation</p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul id="pub-list"></ul>
+    <script>
+      fetch('publications.json')
+        .then(response => response.json())
+        .then(data => {
+          const list = document.getElementById('pub-list');
+          data.publications.forEach(pub => {
+            const li = document.createElement('li');
+            li.innerHTML = `<a href="${pub.link}" target="_blank">${pub.title}</a>, ${pub.venue}, ${pub.year}`;
+            list.appendChild(li);
+          });
+        });
+    </script>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: jywoo (at) kimm.re.kr</p>
+    <p><a href="https://scholar.google.com/citations?user=GOCSqdUAAAAJ&hl=en">Google Scholar</a></p>
+    <p><a href="https://www.linkedin.com/in/jieyeon-woo/">LinkedIn</a></p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <h3>Sorbonne University</h3>
+    <p>Ph.D. in Artificial Intelligence and Human-Machine Interaction, 2020 - 2023</p>
+    <p>M.S. in Engineering of Intelligent Systems, 2018 - 2020</p>
+    <p>B.S. in Electronic Engineering, 2018 - 2020</p>
+    <p>B.S. in Mechanical Engineering, 2018 - 2020</p>
+  </section>
+
+  <section id="activities">
+    <h2>Academic Activities</h2>
+    <h3>Reviewer</h3>
+    <p>Journal on Multimodal User Interfaces, CHI, ACII FG/WACV’23 SIVA Workshop, ICMI’23 GENEA Workshop</p>
+    <h3>Workshop/Conference Organizer</h3>
+    <p>GENEA Challenge at ICMI’23, GENEA Workshop at ICMI’23</p>
+    <h3>Teaching Experience</h3>
+    <h4>Graduate Teaching Assistant (2020-2023) – Sorbonne Université, EEE Department</h4>
+    <p>Courses: Robotics, Digital Electronics, Microcontrollers</p>
+    <h4>Teaching Assistant (2018-2020) – Sorbonne Université, EEE Department</h4>
+    <p>Courses: Mathematics, Analog Electronics, Digital Electronics, Microcontrollers, Electromagnetics</p>
+  </section>
+
+  <footer>
+    © 2025 Jieyeon WOO — All rights reserved.
+  </footer>
+
+</body>
+</html>
